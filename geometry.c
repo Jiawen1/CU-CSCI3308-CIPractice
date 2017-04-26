@@ -52,7 +52,7 @@ double coord_2d_area_triangle(const coord_2d_t *a, const coord_2d_t *b, const co
     }
     
     double area = 0;
-	area = abs((a->x * (b->y - c->y) + b->y * (c->y -a->y) + c->x * (a->y - b->y))/2);
+	area = abs((a->x * (b->y - c->y) + b->y * (c->y - a->y) + c->x * (a->y - b->y))/2);
 	return area; 
 }
 
